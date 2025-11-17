@@ -214,6 +214,7 @@ def analyze_images(api_key: Optional[str], assistant_id: Optional[str], images: 
         "- Make the distribution as even as possible but feel free to vary it randomly.\n"
         "- Each prompt should clearly reference which image it corresponds to.\n"
         "Rules you MUST follow strictly:\n"
+        "0) HIGHEST PRIORITY: Preserve the core meaning, message, and essence of the ad creative. Never change the overall concept or narrative. Ensure all text is spelled correctly while maintaining the exact meaning.\n"
         "1) Analyze EACH image separately and create prompts that replicate its exact style, colors, and composition.\n"
         "2) If an image is text-only (no visuals), generate text-only prompts with no graphics, photos, or illustrations.\n"
         "3) If an image has visuals, include the same type of visual elements (photos, illustrations, graphics) in the prompts.\n"
